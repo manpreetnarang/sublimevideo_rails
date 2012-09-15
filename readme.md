@@ -18,7 +18,7 @@ bundle
 
 ```
 
-Add the sublime.yml file to your config directory
+Add the resources to your application.js file
 
 ```yaml
 
