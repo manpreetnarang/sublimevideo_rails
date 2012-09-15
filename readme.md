@@ -18,6 +18,7 @@ bundle
 
 ```
 
+
 Add the sublime.yml file to your config directory
 
 ```yaml
