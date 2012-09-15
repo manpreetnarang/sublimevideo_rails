@@ -3,7 +3,7 @@ module SublimeVideoRails
   	require 'yaml'
     def sublimevideo_rails(*options)
       @options = options.extract_options!
-      site_token = load_config("sublime.yml")["SITE"]["TOKEN"]
+      @site_token = load_config("sublime.yml")["SITE"]["TOKEN"]
       render "sublimevideo_rails/sublimevideo_rails"
     end
 

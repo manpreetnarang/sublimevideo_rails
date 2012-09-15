@@ -58,6 +58,11 @@ You can optionally use the following options to include HD videos
 #Coming soon
 
 ```
+#Example app
+```ruby
+http://lit-bastion-1612.herokuapp.com
+```
+
 
 ## Resources
 http://sublimevideo.net
