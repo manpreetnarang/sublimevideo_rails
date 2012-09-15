@@ -18,7 +18,7 @@ bundle
 
 ```
 
-Add the resources to your application.js file
+Add the sublime.yml file to your config directory
 
 ```yaml
 
@@ -51,6 +51,7 @@ You can optionally use the following options to include HD videos
 ```
 
 #Watermark
+
 ```ruby
 
 #Coming soon
