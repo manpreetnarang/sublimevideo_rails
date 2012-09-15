@@ -51,7 +51,6 @@ You can optionally use the following options to include HD videos
 ```
 
 #Watermark
-
 ```ruby
 
 #Coming soon
