@@ -5,24 +5,19 @@
 Add to your Gemfile
 
 ```ruby
-
 gem 'sublimevideo_rails'
-
 ```
 
 And run bundle to install the library.
 
 ```ruby
-
 bundle
-
 ```
 
 
 Add the sublime.yml file to your config directory
 
 ```yaml
-
 # config/sublime.yml (change the site token)
 SITE:
   TOKEN: ajezdvbh 
@@ -31,7 +26,6 @@ SITE:
 You can optionally use the following options to include HD videos
 
 ```ruby
-
   source:         #MP4
   source_hd_mp4:  #HD MP4
   source_webm:    #webm 
@@ -40,29 +34,24 @@ You can optionally use the following options to include HD videos
   height:         #height of the video
   poster:         #image that will be displayed on the screen
   class:          #CSS class of the video player container
-
 ```
 
 ## Usage
 
 ```erb
-
 <%= sublimevideo_rails source: "http://domain.com/path/to/video.mp4", width:"400px" %>
-
 ```
 
 #Watermark
 
 ```ruby
-
 #Coming soon
-
 ```
+
 #Example app
 ```ruby
 http://lit-bastion-1612.herokuapp.com
 ```
-
 
 ## Resources
 http://sublimevideo.net
